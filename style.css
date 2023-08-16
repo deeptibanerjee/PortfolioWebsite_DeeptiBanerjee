@@ -1,0 +1,317 @@
+
+/* CSS of the designation text */
+#main{
+    font-family: 'Righteous', cursive;
+    font-size: 76px;
+    font-weight: 200;
+    color: #442564;
+
+}
+
+#name{
+    font-family: 'Righteous', cursive;
+    font-size: 38px;
+    font-weight: 200;
+    color: #442564;
+
+}
+
+#image-container{
+    width: 600px;
+
+    }
+
+.curvy{
+    width: 1263px;
+
+}
+    
+#designation{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: rgb(121, 116, 116);
+
+}
+
+#about-container{
+    background-color: #442564;
+    margin: 0px;
+}
+.infoIcon{
+    width: 208px;
+
+}
+#curve{
+    margin-top: -180px;
+    margin-left: -12px;
+    margin-right: 0px;
+
+}
+.info-icon{
+    width: 294px;
+}
+
+.infoP{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #cec0c5;  
+}
+.infoP-inWhite{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #5d3188;
+}
+.info-heading{
+    
+    color: #cec0c5;
+}
+.info-heading-h3{
+    color: #cec0c5;
+    font-family:'Righteous', cursive;
+}
+/* over-ride bootstrap css using !important */
+.action-button{
+    width: 200px !important;
+
+}
+h1{
+   font-family: Righteous;
+   color: #5d3188 !important;
+}
+p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #442564;
+font-size: 18px;
+}
+.info-alignment{
+    padding-left: 40px;
+}
+#info-heading-inWhite{
+    color: #442564;
+    
+}
+#skill-alignment{
+    margin-top: 104px;
+}
+
+.card-img-top{
+    padding: 26px;}
+
+.curvy-down{
+    width: 1251px;
+    margin-top: -1px;
+}
+
+.work-block{
+    width: 243px
+}
+.card{
+    width: 18rem;
+}
+#load-more{
+    margin-top: 62px;
+}
+
+.icons{
+    width: 31px;
+}
+#icon-align{
+    margin-top: 20px;
+}
+.col-md-6{
+    margin-top: 93px;
+}
+
+#contactme{
+    margin-top: 30px;
+}
+#contact-info{
+    margin-top: 40px;}
+#contact-form{
+margin-top: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+color: #442564;
+}
+
+.col-md-6{
+    margin-top: 61px;
+}
+.graph{
+    width: 557px;}
+
+/* CSS of the universal selector */
+* {
+    box-sizing: border-box;
+}
+/* CSS of the body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#intro-container{
+    margin-top: 125px;
+}
+
+.navbar{
+    background: white;
+}
+
+#section-contact{
+    margin-top: 100px;
+}
+
+#my-image{
+    width: 350px;
+}
+#social-links{
+    margin-top: 30px;
+}
+#col-intro{
+    padding-left: 45px;
+}
+#col-my-image{
+    padding-right: 45px;
+}
+/* over-ride bootstrap css using !important */
+.padding-left{
+    padding-left: 50px !important;
+}
+/* over-ride bootstrap css using !important */
+.padding-right{
+    padding-right: 45px !important;
+}
+#submit{
+margin-bottom: 10px;
+width: 90%;
+background-color: #442564;
+color: white;
+padding: 14px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Righteous', cursive;
+}
+
+#submit:hover{
+background-color: #5d3188;
+transition: 1ms;
+}
+
+.input-box {
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+/* CSS of the header */
+li {
+    background-color: white;
+}
+
+
+/* CSS of the header content *//* over-ride bootstrap css using !important */
+li > a {
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 25px !important;
+    font-family: 'Righteous';
+    color: #442564 !important;
+}
+
+/* CSS of the hover effect of header content */ /* over-ride bootstrap css using !important */
+li > a:hover {
+    background: #442564 !important;
+    color: white !important;
+    transition: .5s;
+    /* border-radius: 10px 10px 0 0; */
+}
+#container-footer{
+    background-image: url(images/curvybg.png);
+}
+#copyright{
+    color: white;
+    position: relative;
+    bottom: -200px;
+    left: 525px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* CSS of the container */
+.modal-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px 45px;
+}
+/* CSS of the class show-modals */
+.show-modals {
+    flex-basis: 30%;
+}
+/* CSS of the class show-modals img */
+.show-modals > img {
+    width: 108%;
+}
+/* CSS of the modal */
+.work-modal {
+    width: 75%;
+    position: fixed;
+    top: 50px;
+    box-shadow: 0 0 30px;
+    border: none;
+    z-index: 9999;
+    animation: popUp .5s 1 rgb(0,0,0, .375);
+    height: 550px;
+    overflow: scroll;
+}
+/* CSS of the modal image */
+.work-modal img {
+    width: 100%;
+}
+/* CSS of the class-modal */
+.close-work-modal {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 200%;
+    background-color: #442564;
+    color: white;
+    border: none;
+}
+/* CSS of the hover effect of the class-modal */
+.close-work-modal:hover {
+    background-color: rgb(124, 205, 11);
+    color: white;
+}
+
+/* Keyframe elements */
+@keyframes popUp {
+    0% {
+        transform: translateY(20%);
+        opacity: 10%;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}
+.project-heading{
+    text-align: center;
+    font-family:'Righteous', cursive;
+    font-size: 25px;
+}
+/* over-ride bootstrap css using !important */
+.work-intro-container{
+    margin-top: 125px !important;
+}
+
