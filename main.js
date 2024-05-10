@@ -17,10 +17,7 @@ showModal.forEach( (el) => {
     const addTheInfo = document.querySelector(`.addInfo`);
     addTheInfo.innerHTML = `<h2> The ${projName}
     <img src = "${projImg}">
-    <p>${projDescription}</p>
-    
-    `
-
+    <p>${projDescription}</p>`
     }) //End of el.addEventListener()
     
 
